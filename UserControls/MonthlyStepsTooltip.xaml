@@ -1,0 +1,12 @@
+<UserControl x:Class="fitness_tracker.UserControls.MonthlyStepsTooltip"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="Transparent">
+    <Border Background="#5a5080" CornerRadius="8" Padding="12 8" BorderThickness="1" BorderBrush="#6b5a99">
+        <TextBlock x:Name="TextBlockMonth" 
+                   Foreground="#f4f3f6" 
+                   FontSize="13" 
+                   FontWeight="SemiBold"
+                   TextAlignment="Center"/>
+    </Border>
+</UserControl>
